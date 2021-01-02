@@ -1,0 +1,25 @@
+C1, C2	input capacitors: 3300u, 4700u or even larger [D: 18.0mm, P: 7.5mm]
+C3	7812 input capacitor: usually 0.33u ceramic or tantalum [P: 5.0mm]
+C4	7912 input capacitor: usually 2.2u tantalum or 25u aluminium electrolytic [P: 5.0mm]
+C5	7805 input capacitor: usually 0.33u ceramic or tantalum [P: 5.0mm]
+C6	7812 output capacitor: usually 0.1u ceramic or tantalum [P: 5.0mm]
+C7	7912 output capacitor: usually 1u tantalum or 25u aluminium electrolytic [P: 5.0mm]
+C8	7805 output capacitor: usually 0.1u ceramic or tantalum [P: 5.0mm]
+
+D1, D2	rectification diodes: 1N4002 or similar [DO-41]
+D3	indicator LED for +12V [5mm]
+D4	indicator LED for -12V [5mm]
+D5	indicator LED for +5V [5mm]
+
+R1	indicator LED resistor for +12V [P: 7.62mm]
+R2	indicator LED resistor for -12V [P: 7.62mm]
+R3	indicator LED resistor for +5V [P: 7.62mm]
+
+U1	7812 [TO-220]
+U2	7912 [TO-220]
+U3	7805 [TO-220]
+
+conn.	pin header/box header for 16-pos. IDC connector [P: 2.54mm]
+
+
+The heatsinks have to be kept isolated from each other. On a 7912 the mounting tab is usually connected not to ground but to the input.
