@@ -23,3 +23,4 @@ conn.	pin header/box header for 16-pos. IDC connector [P: 2.54mm]
 
 
 The heatsinks have to be kept isolated from each other. On a 7912 the mounting tab is usually connected not to ground but to the input.
+Rectification diodes must have an adequate surge current rating to cope with the inrush current. The inrush current is only limited by the capacitance of the large smoothing capacitors (and the AC supply used).
